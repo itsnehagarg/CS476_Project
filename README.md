@@ -22,34 +22,34 @@ The dashboard shows the marks allocated to the user attempting the aptitude test
 ##  👨‍💻 Contents - Features
 
 ## 📋 Requirements
-Login Logout functionality
-User Registration
-Admin role upload aptitude tests 
-Admin can bulk upload questions
-Questions Category
-User role attempt examination
-Generate reports on user performance
-User Dashboard 
-Details of Shortlisted candidates
-Email notification
+- Login Logout functionality
+- User Registration
+- Admin role upload aptitude tests 
+- Admin can bulk upload questions
+- Questions Category
+- User role attempt examination
+- Generate reports on user performance
+- User Dashboard 
+- Details of Shortlisted candidates
+- Email notification
 
 ✍️ **Technical requirements:**
-Exception Handling
-Logging
-Dynamic database backup
-Project Deployment on AWS
+- Exception Handling
+- Logging
+- Dynamic database backup
+- Project Deployment on AWS
 
 ## 💻 Technology Stack used in App
- Python
- Libraries of python 
- SQLite
- Django framework
- PostgreSQL
- HTML
- CSS 
- Ajax
- AWS
- Jenkins
+- Python
+- Libraries of python 
+- SQLite
+- Django framework
+- PostgreSQL
+- HTML
+- CSS 
+- Ajax
+- AWS
+- Jenkins
  
 ## Contributors
 ### Raghav Sharma 
