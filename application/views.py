@@ -115,7 +115,6 @@ def submitted(request):
         percent_eng = request.POST.get('angrezi__')
         percent_math = request.POST.get('ganith__')
         username = request.POST.get('username__')
-        # try:
         user = CreateCandidate.objects.get(username=username)
         user.score_reasoning = math.ceil(int(percent_reas)/10 * 100)
         user.score_english = math.ceil(int(percent_eng)/10 * 100)
@@ -135,8 +134,6 @@ def submitted(request):
                                           activestatus=user.activestatus, selectionstatus=user.selectionstatus, source=user.source, referralid=user.referralid,
                                           candempid=user.candempid, updated_at=datetime.now(), updated_by=user.email)
         User.objects.get(username=username).delete()
-        # except:
-        #     return HttpResponse('<h2>Unique contraint failed for username</h2>')
         logout(request)
         return render(request, 'application/submit.html', {'score': percent})
     return redirect('application:panel')

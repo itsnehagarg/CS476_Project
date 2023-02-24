@@ -89,7 +89,6 @@ def postcred(request):
             referral = request.POST.get('referral')
             dob = dob[6:10] + '-' + dob[:2] + '-' + dob[3:5]
             if User.objects.filter(username=username).exists() and CreateCandidate.objects.filter(username=username).exists():
-                # try:
                 authcand = User.objects.get(username=username)
                 authcand.first_name = fullname
                 authcand.email = email
@@ -115,11 +114,9 @@ def postcred(request):
                                                dob=dob, resume=resume, location=location, source=source,
                                                referralid=referral, updated_at=datetime.now(), updated_by=filler_email)
 
-                # except:
-                #     return HttpResponse('<h2>Error code v6s v7.5s(postcred if)</h2>')
+
                 return redirect('adminboard:adminuser')
             else:
-                # try:
                 CreateCandidate.objects.create(fullname=fullname, username=username, password=password, email=email,
                                             phone=phone, designation=designation, team=team, created_at=datetime.today(), dob=dob, resume=resume, location=location, source=source, referralid=referral)
                 History.objects.create(fullname=fullname, username=username, password=password, email=email,
@@ -128,8 +125,6 @@ def postcred(request):
                                                referralid=referral, updated_at=datetime.now(), updated_by=filler_email)
                 User.objects.create_user(first_name=fullname, username=username, password=password, email=email)
 
-                # except:
-                #     return HttpResponse('<h2>Error code v8-8.5s(postcred else)</h2>')
                 return redirect('adminboard:addcredential')
         return redirect('adminboard:addcredential')
     else:
@@ -154,14 +149,11 @@ def admindelcand(request, username):
         authorized_admin = [i.email for i in AuthorizedHr.objects.all()]
         email = request.user.email
         if email in authorized_admin:
-            # try:
             User.objects.get(username=username).delete()
             obj = CreateCandidate.objects.get(username=username)
             obj.activestatus = 'deleted'
             obj.save()
             return redirect('adminboard:adminuser')
-            # except:
-            #     return HttpResponse('<h2>Error: V@admindelcand</h2>')
         else:
             return HttpResponse('<h2>Error: You do not have admin rights.</h2>')
     else:
