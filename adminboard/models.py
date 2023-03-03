@@ -34,9 +34,8 @@ class CreateCandidate(models.Model):
     testcomplete_at = models.DateTimeField(null=True, blank=True, default=None)
 
 
-
     def __str__(self):
-        return self.username
+        return f'{self.fullname} - {self.username}'
 
 
 class History(models.Model):
@@ -67,8 +66,6 @@ class History(models.Model):
     updated_by = models.EmailField(default=None, blank=True, null=True)
 
 
-
     def __str__(self):
-        return self.username
-
+        return f'{self.fullname} - {self.username}'
 
