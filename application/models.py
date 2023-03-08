@@ -5,7 +5,9 @@ class Question(models.Model):
     question = models.TextField(null=True, blank=True)
     option1 = models.TextField(null=True, blank=True)
     option2 = models.TextField(null=True, blank=True)
-    option3 = models.TextField(default='null', null=True, blank=True)
+    option3 = models.TextField(null=True, blank=True)
+    option4 = models.TextField(null=True, blank=True)
+    option5 = models.TextField(default='null', null=True, blank=True)
     correct = models.TextField(null=True, blank=True)
 
     def __str__(self):
