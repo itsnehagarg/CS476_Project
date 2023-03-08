@@ -1,3 +1,6 @@
+#This code sets up the necessary URLs and views for the 'application' app, 
+#providing users with the ability to log in, sign up, access the dashboard, 
+#and perform various other actions.
 from django.contrib import admin
 from django.urls import path
 from . import views
