@@ -5,13 +5,10 @@ from django.views.decorators.csrf import csrf_exempt
 from django.contrib import messages
 from application.models import Question
 from adminboard.models import CreateCandidate, History
-from django.http import HttpResponse
 from django.contrib.auth.models import User
 from application.models import Instructions
 from django.core.cache import cache
 from datetime import datetime
-from django.core.serializers.json import DjangoJSONEncoder
-import json
 from django.core.mail import send_mail
 from django.conf import settings
 from itertools import chain
