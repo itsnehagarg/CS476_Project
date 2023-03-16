@@ -28,7 +28,10 @@ class CreateCandidate(models.Model):
     referralid = models.CharField(max_length=100, null=True, blank=True, default='No-referral')
     candempid = models.CharField(max_length=100, null=True, blank=True, default='Nan')
     testcomplete_at = models.DateTimeField(null=True, blank=True, default=None)
-
+    username = models.CharField(max_length=100, null=True, blank=True)
+    password = models.CharField(max_length=100, null=True, blank=True)
+    designation = models.CharField(max_length=100, null=True, blank=True)
+    email = models.EmailField(null=True, blank=True)
 
     def __str__(self):
         return f'{self.fullname} - {self.username}'
