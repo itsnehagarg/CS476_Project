@@ -10,10 +10,6 @@ class AuthorizedHr(models.Model):
 class CreateCandidate(models.Model):
     phone = models.BigIntegerField(null=True, blank=True)
     fullname = models.CharField(max_length=300, null=True, blank=True)
-    username = models.CharField(max_length=100, null=True, blank=True)
-    password = models.CharField(max_length=100, null=True, blank=True)
-    designation = models.CharField(max_length=100, null=True, blank=True)
-    email = models.EmailField(null=True, blank=True)
     team = models.CharField(max_length=100, null=True, blank=True)
     location = models.TextField(null=True, blank=True)
     score = models.FloatField(null=True, blank=True)
