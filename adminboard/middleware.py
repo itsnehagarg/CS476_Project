@@ -10,6 +10,7 @@ class RemoveuserMiddleware(MiddlewareMixin):
         if CreateCandidate.objects.all().exists():
             for i in users:
                 if abs(i.date_joined.date() - datetime.today().date()).days > 6:
+                    User.objects.get(username=i.username).delete()
                     try:
                         candidate = CreateCandidate.objects.get(username=i.username)
                         if candidate.teststatus == 'Pending':
