@@ -16,7 +16,6 @@ The dashboard shows the marks allocated to the user attempting the aptitude test
   * [Scripts for execution of the app](#scripts-for-execution-of-the-app) 
   * [Folder structure](#folder-structure)
 * [Application screenshots and steps to use the app](#application-screenshots-and-steps-to-use-the-app)
-* [Design Patterns](#design-patterns)
 * [Contributors](#Contributors)
 
 ##  👨‍💻 Contents - Features
