@@ -4,7 +4,7 @@ The main idea behind taking this project is to implement an aptitude analyzer wh
 the user of the examination system, test takers will be able to answer the questions of the aptitude. 
 The dashboard shows the marks allocated to the user attempting the aptitude test and the analysis of the performance of the users in the test.
 
-## Table of Contents
+## 📝 Table of Contents
 
 * [Audience](#audience)
 * [Contents - Features](#contents-features)
@@ -14,7 +14,7 @@ The dashboard shows the marks allocated to the user attempting the aptitude test
 * [Application screenshots and steps to use the app](#application-screenshots-and-steps-to-use-the-app)
 * [Contributors](#Contributors)
 
-## Audience
+## 👔 Audience
 The audience for this project would be organizations or individuals who want to assess the aptitude skills of potential employees or candidates. This project can also be useful for educational institutions to test their students' aptitude skills. The audience could also be developers who want to learn about building a web-based aptitude analyzer system or want to use this project as a reference for building similar systems.
 
 ##  👨‍💻 Contents - Features
@@ -66,12 +66,12 @@ The audience for this project would be organizations or individuals who want to 
 - AWS
 - Jenkins
 
-## Building Aptitude Analyzer System
+## 🗂️ Building Aptitude Analyzer System
 Building an aptitude analyzer system involves developing a computer-based platform that can evaluate and measure an individual's cognitive abilities, such as critical thinking, logical reasoning, problem-solving, and mathematical skills. The system should have an extensive question bank with a variety of questions from different domains like verbal, numerical, and abstract reasoning. The system should provide candidates with a fair and standardized test, ensuring that every individual is given an equal opportunity to showcase their skills.
 
 The aptitude analyzer system should provide users with real-time feedback, with an accurate evaluation of their abilities. It should also provide detailed analytics and reports for the admin, highlighting individual and overall performance, including areas where candidates may need further improvement.
 
-## Application screenshots and steps to use the app
+## 🖥️ Application screenshots and steps to use the app
 Home:
 The Home page of the admin board is the first page that opens up when the admin logs into the system. It provides a comprehensive view of the admin dashboard, user information, and navigation bar. The navigation bar on the left side of the page includes different options, such as Home, User, Question, Finalize, and Others. This navigation bar provides easy access to all the functionalities of the system. The user information section on the Home page displays the credentials of the candidates who have registered but are yet to give the aptitude test. The credentials include full name, username, email, phone number, date of birth, designation, team, location, source, and resume upload. This information allows the admin to keep track of the candidates who are in the pipeline for taking the test.
 
@@ -105,7 +105,7 @@ The Others page provides a space for the admin to add instructions that will be 
 
 ![Others Page Image](Images/Others.png)
  
-## Contributors
+## 🗄️ Contributors
 ### Raghav Sharma 
 ### Neha Garg 
 ### Chiranjeev Trivedi 
