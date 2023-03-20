@@ -49,6 +49,9 @@ The dashboard shows the marks allocated to the user attempting the aptitude test
 - Ajax
 - AWS
 - Jenkins
+
+## Application screenshots and steps to use the app
+![alt Home page image](https://github.com/raghavsharma007/CS476_Project/tree/master/Images#:~:text=5%20minutes%20ago-,Home.png,-Uploading%20Images)
  
 ## Contributors
 ### Raghav Sharma 
