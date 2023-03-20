@@ -14,6 +14,9 @@ The dashboard shows the marks allocated to the user attempting the aptitude test
 * [Application screenshots and steps to use the app](#application-screenshots-and-steps-to-use-the-app)
 * [Contributors](#Contributors)
 
+## Audience
+The audience for this project would be organizations or individuals who want to assess the aptitude skills of potential employees or candidates. This project can also be useful for educational institutions to test their students' aptitude skills. The audience could also be developers who want to learn about building a web-based aptitude analyzer system or want to use this project as a reference for building similar systems.
+
 ##  👨‍💻 Contents - Features
 - Admin login/registration  
 - Home page with a dashboard displaying user information and pending submissions  
