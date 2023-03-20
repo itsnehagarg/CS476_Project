@@ -11,14 +11,27 @@ The dashboard shows the marks allocated to the user attempting the aptitude test
 * [Requirements](#Requirements)
 * [Technology Stack used in App](#technology-stack-used-in-app)
 * [Building Aptitude Analyzer System](#Aptitude-Analyzer-System)
-* [Documentation](#documentation) 
-  * [Installation Steps](#installation-steps) 
-  * [Scripts for execution of the app](#scripts-for-execution-of-the-app) 
-  * [Folder structure](#folder-structure)
 * [Application screenshots and steps to use the app](#application-screenshots-and-steps-to-use-the-app)
 * [Contributors](#Contributors)
 
 ##  👨‍💻 Contents - Features
+- Admin login/registration  
+- Home page with a dashboard displaying user information and pending submissions  
+- User page to manage candidate credentials with add and edit options 
+- Question page with single and bulk upload options and the ability to view and edit uploaded questions  
+- Finalize page with candidate information, status change options, and the ability to download data in excel format  
+- Others page to add instructions for users before taking the quiz  
+- Aptitude test quiz with multiple categories including English, Reasoning, and Quantitative  
+- Randomized questions for each candidate  
+- Timed quiz with a set time limit  
+- Results displayed to candidate at the end of the quiz  
+- Score calculation and percentage displayed to the candidate  
+- Admin dashboard with an overview of all user and test data  
+- Admin ability to export test data to excel format  
+- Admin ability to change the status of a candidate in the Finalize page  
+- Admin ability to download user resumes  
+- Admin ability to delete user information and test data  
+- Responsive design for mobile and desktop devices  
 
 ## 📋 Requirements
 - Login Logout functionality
@@ -49,6 +62,11 @@ The dashboard shows the marks allocated to the user attempting the aptitude test
 - Ajax
 - AWS
 - Jenkins
+
+## Building Aptitude Analyzer System
+Building an aptitude analyzer system involves developing a computer-based platform that can evaluate and measure an individual's cognitive abilities, such as critical thinking, logical reasoning, problem-solving, and mathematical skills. The system should have an extensive question bank with a variety of questions from different domains like verbal, numerical, and abstract reasoning. The system should provide candidates with a fair and standardized test, ensuring that every individual is given an equal opportunity to showcase their skills.
+
+The aptitude analyzer system should provide users with real-time feedback, with an accurate evaluation of their abilities. It should also provide detailed analytics and reports for the admin, highlighting individual and overall performance, including areas where candidates may need further improvement.
 
 ## Application screenshots and steps to use the app
 Home:
